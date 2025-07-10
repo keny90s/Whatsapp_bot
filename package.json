@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-schedule-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for class schedule",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.21.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
